@@ -13,7 +13,7 @@
       </div>
       <div class="tb-date_set" v-if="isSetDate">
         <select id="tb-year" v-model="year" @change.stop="changeYear">
-          <option :value="item" v-for="item in startEndDate" checked="false">{{item}}</option>
+          <option :value="item" v-for="item in startEndDate">{{item}}</option>
         </select>
         <select id="tb-month" v-model="month" @change.stop="changeMonth">
           <option :value="item" v-for="item in 12">{{item}}</option>
