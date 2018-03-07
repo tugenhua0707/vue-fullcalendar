@@ -130,6 +130,7 @@
     }
     .tb-date_txt,.tb-date_set {
       float: left;
+      cursor: pointer;
     }
     .tb-header-center .title {
       margin: 0 10px;
